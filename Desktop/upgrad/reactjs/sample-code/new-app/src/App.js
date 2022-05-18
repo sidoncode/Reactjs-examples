@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import './App.css'
-import Welcome from './components/Welcome'
-import Mainn from './components/Mainn'
+import Hello from './components/Hello'
+import ClassCounter from './components/ClassCounter'
+import HookCounter from './components/HookCounter'
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Welcome/>
-      <Mainn/>
+      <HookCounter/>
       </div>
     )
   }
