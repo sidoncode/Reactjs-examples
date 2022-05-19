@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
 import './App.css'
-import Hello from './components/Hello'
-import ClassCounter from './components/ClassCounter'
-import HookCounter from './components/HookCounter'
+import HookCounterTwo from './components/HookCounterTwo'
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <HookCounter/>
+      <HookCounterTwo/>
       </div>
     )
   }
