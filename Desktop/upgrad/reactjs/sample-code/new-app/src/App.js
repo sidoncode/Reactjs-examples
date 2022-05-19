@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import './App.css'
-import HookCounterTwo from './components/HookCounterTwo'
+
+import HookCounterOne from './components/HookCounterOne'
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <HookCounterTwo/>
+      <HookCounterOne/>
       </div>
     )
   }
